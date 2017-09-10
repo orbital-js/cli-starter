@@ -1,0 +1,24 @@
+{
+  "name": "cli-starter",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "dist/main",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "go": "ts-node ./src/main.ts"
+  },
+  "bin": {
+    "orbital": "./dist/main.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "@orbital/core": "^1.0.0-alpha.25"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "typescript": "^2.5.2"
+  }
+}
